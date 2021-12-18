@@ -143,12 +143,18 @@
     <ClCompile Include="Product.cpp" />
     <ClCompile Include="ProductInputScreen.cpp" />
     <ClCompile Include="ProductList.cpp" />
+    <ClCompile Include="Sell.cpp" />
+    <ClCompile Include="SellInputScreen.cpp" />
+    <ClCompile Include="SellProduct.cpp" />
     <ClCompile Include="UserInterface.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Product.h" />
     <ClInclude Include="ProductInputScreen.h" />
     <ClInclude Include="ProductList.h" />
+    <ClInclude Include="Sell.h" />
+    <ClInclude Include="SellInputScreen.h" />
+    <ClInclude Include="SellProduct.h" />
     <ClInclude Include="UserInterface.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -11,6 +11,8 @@ void ProductInputScreen::setProduct() // добавить данные об украшении
 	getaLine(tType);
 	cout << "¬ведите материал: " << endl;
 	getaLine(tMaterial);
+	cout << "¬ведите јртикул: " << endl;
+	cin >> tNumber;
 	cout << "¬ведите размер: " << endl;
 	cin >> tSize;
 	cout << "¬ведите количество: " << endl;
