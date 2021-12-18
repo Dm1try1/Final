@@ -153,6 +153,7 @@
     <ClInclude Include="ProductList.h" />
     <ClInclude Include="Sell.h" />
     <ClInclude Include="SellInputScreen.h" />
+    <ClInclude Include="SellProduct.h" />
     <ClInclude Include="UserInterface.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
