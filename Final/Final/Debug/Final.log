@@ -1,5 +1,2 @@
-﻿  Source.cpp
-  Source1.cpp
-  Создание кода...
-MSVCRTD.lib(exe_main.obj) : error LNK2019: ссылка на неразрешенный внешний символ _main в функции "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ).
-C:\Users\trish\ProjectFinaly\Final\Debug\Final.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
+﻿  ProductInputScreen.cpp
+  Final.vcxproj -> C:\Users\mrkol\Documents\Fina\Final\Debug\Final.exe

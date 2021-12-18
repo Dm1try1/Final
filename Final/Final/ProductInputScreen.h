@@ -9,7 +9,7 @@ private:
 	string tType;
 	string tMaterial;
 	double tPrice, tSize;
-	int tNumber;
+	int tNumber, tSklad, tcolvo;
 public:
 	ProductInputScreen(ProductList* ptrTL) : ptrProductList(ptrTL)
 	{
