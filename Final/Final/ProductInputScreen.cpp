@@ -16,10 +16,10 @@ void ProductInputScreen::setProduct() // добавить данные об украшении
 	cout << "¬ведите размер: " << endl;
 	cin >> tSize;
 	cout << "¬ведите количество: " << endl;
-	cin >> tNumber;
+	cin >> tSklad;
 	cout << "¬ведите цену: " << endl;
 	cin >> tPrice;
 	cin.ignore(80, '\n');
-	Product* ptrProduct = new Product(tName, tType, tMaterial, tSize, tNumber, tPrice); // создать украшение
+	Product* ptrProduct = new Product(tName, tType, tMaterial, tSize, tNumber, tPrice, tSklad); // создать украшение
 	ptrProductList->add(ptrProduct); // занести в список украшений
 }

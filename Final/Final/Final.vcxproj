@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AnnualReport.cpp" />
+    <ClCompile Include="ExpenseInputScreen.cpp" />
     <ClCompile Include="ExpenseRecord.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Product.cpp" />
@@ -153,6 +154,7 @@
   <ItemGroup>
     <ClInclude Include="AnnualReport.h" />
     <ClInclude Include="Expense.h" />
+    <ClInclude Include="ExpenseInputScreen.h" />
     <ClInclude Include="ExpenseRecord.h" />
     <ClInclude Include="Product.h" />
     <ClInclude Include="ProductInputScreen.h" />
