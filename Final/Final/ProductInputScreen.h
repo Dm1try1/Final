@@ -1,4 +1,5 @@
 #include "ProductList.h"
+#include "Product.h"
 
 class ProductInputScreen
 {

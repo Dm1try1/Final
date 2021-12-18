@@ -18,7 +18,7 @@ char getaChar() // получение символа
 //---------------------------------------------------------
 ////////////////методы класса Product///////////////////////
 //в конструкторе задаём параметры украшений
-Product::Product(string n, string n1, string n2, double aNo1, int aNo, double aNo2) : name(n), type(n1), material(n2), size(aNo1), number(aNo), price(aNo2)
+Product::Product(string n, string n1, string n2, double aNo1, int aNo, double aNo2, int aNo3) : name(n), type(n1), material(n2), size(aNo1), number(aNo), price(aNo2), sklad(aNo3)
 {
 	/* тут пусто */
 }
@@ -31,6 +31,14 @@ Product::~Product() // деструктор
 int Product::getAptNumber() //геттер возвращает кол-во на складе
 {
 	return number;
+}
+void Product::resklader(int CORVOL) //функция уменьшения кол-ва на складе
+{
+	sklad = sklad - CORVOL;
+}
+int Product::getSklad() //геттер возвращает колличество на складе
+{
+	return sklad;
 }
 double Product::getAptSize() //геттер возвращает нразмер
 {

@@ -1,4 +1,6 @@
 #include "Product.h"
+#ifndef ProductList_h
+#define ProductList_h
 
 class ProductList
 {
@@ -9,6 +11,10 @@ private:
 public:
 	~ProductList(); // деструктор (удаление украшений)
 	void add(Product*); // добавить украшение в список
-	int getAptNo(string); // возвращает кол-во на складе
+	int getPRICE(string); // возвращает цену
 	void display(); // вывод списка украшений
+	int getArtikl(string); // возвращает артикул
+	void getSELLER(string, int);
+	int getSkladsk(string);
 };
+#endif ProductList_h
