@@ -143,6 +143,7 @@
     <ClCompile Include="Product.cpp" />
     <ClCompile Include="ProductInputScreen.cpp" />
     <ClCompile Include="ProductList.cpp" />
+    <ClCompile Include="SellInputScreen.cpp" />
     <ClCompile Include="UserInterface.cpp" />
   </ItemGroup>
   <ItemGroup>
