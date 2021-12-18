@@ -25,7 +25,7 @@ void ExpenseInputScreen::setExpense()
 	cin >> day;
 	cin.ignore(80, '\n');
 
-	cout << "Введите получателя платежа (ООО 'физтехули)': ";
+	cout << "Введите получателя платежа (ООО 'РосКосмСтрой'): ";
 	getaLine(payee);
 	cout << "Введите сумму (14500,99): ";
 	cin >> amount;
