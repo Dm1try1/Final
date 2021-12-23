@@ -27,7 +27,7 @@ void ExpenseInputScreen::setExpense()
 
 	cout << "Введите получателя платежа (ООО 'РосКосмСтрой'): ";
 	getaLine(payee);
-	cout << "Введите сумму (14500,99): ";
+	cout << "Введите сумму (14500(четное число)): ";
 	cin >> amount;
 	cin.ignore(80, '\n');
 	// создаем новый расход

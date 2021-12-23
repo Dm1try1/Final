@@ -16,7 +16,7 @@ class Product
 {
 private:
 	string name, type, material;
-	int number, sklad, colvo, CORVOL;
+	int  number, sklad, colvo, CORVOL;
 	double price, size;
 
 public:
