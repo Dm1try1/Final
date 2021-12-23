@@ -1,2 +1,9 @@
-﻿  ProductInputScreen.cpp
-  Final.vcxproj -> C:\Users\trish\ProjectFinaly\Final\Debug\Final.exe
+﻿  ProductList.cpp
+C:\Users\mrkol\Documents\Finl\Final\Final\ProductList.cpp(60,28): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\mrkol\Documents\Finl\Final\Final\ProductList.cpp(77,27): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\mrkol\Documents\Finl\Final\Final\ProductList.cpp(114,4): warning C4834: отмена возвращаемого значения функции с атрибутом "nodiscard"
+  SellInputScreen.cpp
+C:\Users\mrkol\Documents\Finl\Final\Final\SellInputScreen.cpp(24,40): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  UserInterface.cpp
+  Создание кода...
+  Final.vcxproj -> C:\Users\mrkol\Documents\Finl\Final\Debug\Final.exe

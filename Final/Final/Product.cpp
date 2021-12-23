@@ -28,7 +28,7 @@ Product::~Product() // деструктор
 	/* тут тоже пусто */
 }
 //---------------------------------------------------------
-int Product::getAptNumber() //геттер возвращает артикул
+int Product::getNumber() //геттер возвращает артикул
 {
 	return number;
 }
@@ -40,11 +40,11 @@ int Product::getSklad() //геттер возвращает колличество на складе
 {
 	return sklad;
 }
-double Product::getAptSize() //геттер возвращает нразмер
+double Product::getSize() //геттер возвращает размер
 {
 	return size;
 }
-double Product::getAptPrice() //геттер возвращает цену
+double Product::getPrice() //геттер возвращает цену
 {
 	return price;
 }

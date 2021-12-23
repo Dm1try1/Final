@@ -19,7 +19,7 @@ void Sell::insertRent(int Artikl, int month, float amount)
 	while (iter != setPtrsRR.end()) // условие выхода
 	{ // если текущий объект совпадает с созданным для поиска,
 		if (Artikl == (*iter)->getArtikl())
-		{ // заносим ренту в список
+		{ // заносим сделку в список
 			(*iter)->setPlatim(month, amount);
 			return;
 		}

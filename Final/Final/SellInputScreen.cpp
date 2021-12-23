@@ -6,9 +6,9 @@ void SellInputScreen::setPlata()
 	ptrProductList->display();
 	cout << "Введите наименование товара: ";
 	getaLine(SalatName);
-	// получить номер апартаментов по имени жильца
+	// получить название товара по артикулу
 	Artikl = ptrProductList->getArtikl(SalatName);
-	if (Artikl > 0) // если имя найдено, и такой жилец существует -
+	if (Artikl > 0) // если артикул найден и такой товар существует -
 	{
 		cout << "Введите количество проданного: " << endl;
 		cin >> tcolvo;
