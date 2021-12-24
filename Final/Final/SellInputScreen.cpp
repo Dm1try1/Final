@@ -17,14 +17,13 @@ void SellInputScreen::setPlata()
 		cin >> month;
 		cin.ignore(80, '\n');
 		month--; // (внутренняя нумерация 0-11)
-		 // вставляем ренту в запись об оплате
 		skaldsk = ptrProductList->getSkladsk(SalatName);
 		if (skaldsk >= tcolvo)
 		{
 			moneypaid = ptrProductList->getPRICE(SalatName);
 			moneypaid = tcolvo * moneypaid;
 			ptrProductList->getSELLER(SalatName, tcolvo);
-			ptrSell->insertRent(Artikl, month, moneypaid);
+			ptrSell->insertSell(Artikl, month, moneypaid);
 		}
 		else
 		{

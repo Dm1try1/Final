@@ -1,9 +1,44 @@
-﻿  ProductList.cpp
-C:\Users\mrkol\Documents\Finl\Final\Final\ProductList.cpp(60,28): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-C:\Users\mrkol\Documents\Finl\Final\Final\ProductList.cpp(77,27): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-C:\Users\mrkol\Documents\Finl\Final\Final\ProductList.cpp(114,4): warning C4834: отмена возвращаемого значения функции с атрибутом "nodiscard"
+﻿  AnnualReport.cpp
+  Main.cpp
+  Sell.cpp
   SellInputScreen.cpp
-C:\Users\mrkol\Documents\Finl\Final\Final\SellInputScreen.cpp(24,40): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\trish\ProjectFinaly\Final\Final\SellInputScreen.cpp(23,40): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  SellProduct.cpp
+C:\Users\trish\ProjectFinaly\Final\Final\SellProduct.cpp(30,19): warning C4244: return: преобразование "_Ty" в "float", возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xutility(4871,24): warning C4244: =: преобразование "const _Ty" в "float", возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\trish\ProjectFinaly\Final\Final\SellProduct.cpp(8): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::fill<float*,int>(const _FwdIt,const _FwdIt,const _Ty &)"
+          with
+          [
+              _FwdIt=float *,
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\numeric(35,26): warning C4244: =: преобразование "float" в "_Ty", возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\numeric(44): message : выполняется компиляция ссылки на экземпляр шаблон функции "_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(const _InIt,const _InIt,_Ty,_Fn)"
+          with
+          [
+              _Ty=int,
+              _InIt=float *,
+              _Fn=std::plus<void>
+          ]
+C:\Users\trish\ProjectFinaly\Final\Final\SellProduct.cpp(30): message : выполняется компиляция ссылки на экземпляр шаблон функции "_Ty std::accumulate<float*,int>(const _InIt,const _InIt,_Ty)"
+          with
+          [
+              _Ty=int,
+              _InIt=float *
+          ]
   UserInterface.cpp
   Создание кода...
-  Final.vcxproj -> C:\Users\mrkol\Documents\Finl\Final\Debug\Final.exe
+  LINK : не найден или не выполнена сборка C:\Users\trish\ProjectFinaly\Final\Debug\Final.exe при последней инкрементной компоновке; выполняется полная компоновка
+  Final.vcxproj -> C:\Users\trish\ProjectFinaly\Final\Debug\Final.exe

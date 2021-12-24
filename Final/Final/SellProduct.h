@@ -4,8 +4,6 @@
 #include <Windows.h>
 #include <numeric> //для accumulate()
 using namespace std;
-//класс, хранящий одну табличную строку доходов (суммы совершенных сделок)
-// одна строка таблицы прибыли: адрес и 12 месячных оплат
 class SellProduct
 {
 private:

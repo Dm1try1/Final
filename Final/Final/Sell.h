@@ -18,7 +18,7 @@ private:
 	list <SellProduct*>::iterator iter;
 public:
 	~Sell();
-	void insertRent(int, int, float); // добавить сделку
+	void insertSell(int, int, float); // добавить сделку
 	void display(); // вывести строки по сделкам
 	float getSumOfPlatim(); // подсчёт общей суммы сделок
 };

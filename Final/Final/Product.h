@@ -22,7 +22,7 @@ private:
 public:
 	Product(string n, string n1, string n2, double aNo1, int aNo, double aNo2, int aNo3);
 	~Product();
-	int getNumber(); //возвращает кол-во на складе
+	int getNumber(); //возвращает артикул
 	string getName();
 	string getType();
 	int getSklad();

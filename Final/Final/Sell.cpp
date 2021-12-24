@@ -13,7 +13,7 @@ Sell::~Sell() // деструктор
 	}
 }
 //---------------------------------------------------------
-void Sell::insertRent(int Artikl, int month, float amount)
+void Sell::insertSell(int Artikl, int month, float amount)
 {
 	iter = setPtrsRR.begin(); // Инициализация итератора
 	while (iter != setPtrsRR.end()) // условие выхода
