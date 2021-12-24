@@ -6,9 +6,9 @@ void SellInputScreen::setPlata()
 	ptrProductList->display();
 	cout << "Введите наименование товара: ";
 	getaLine(SalatName);
-	// получить номер апартаментов по имени жильца
+	// получить название товара по артикулу
 	Artikl = ptrProductList->getArtikl(SalatName);
-	if (Artikl > 0) // если имя найдено, и такой жилец существует -
+	if (Artikl > 0) // если артикул найден и такой товар существует -
 	{
 		cout << "Введите количество проданного: " << endl;
 		cin >> tcolvo;
@@ -17,14 +17,13 @@ void SellInputScreen::setPlata()
 		cin >> month;
 		cin.ignore(80, '\n');
 		month--; // (внутренняя нумерация 0-11)
-		 // вставляем ренту в запись об оплате
 		skaldsk = ptrProductList->getSkladsk(SalatName);
 		if (skaldsk >= tcolvo)
 		{
 			moneypaid = ptrProductList->getPRICE(SalatName);
 			moneypaid = tcolvo * moneypaid;
 			ptrProductList->getSELLER(SalatName, tcolvo);
-			ptrSell->insertRent(Artikl, month, moneypaid);
+			ptrSell->insertSell(Artikl, month, moneypaid);
 		}
 		else
 		{

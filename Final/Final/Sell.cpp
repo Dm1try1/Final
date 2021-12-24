@@ -13,13 +13,13 @@ Sell::~Sell() // деструктор
 	}
 }
 //---------------------------------------------------------
-void Sell::insertRent(int Artikl, int month, float amount)
+void Sell::insertSell(int Artikl, int month, float amount)
 {
 	iter = setPtrsRR.begin(); // Инициализация итератора
 	while (iter != setPtrsRR.end()) // условие выхода
 	{ // если текущий объект совпадает с созданным для поиска,
 		if (Artikl == (*iter)->getArtikl())
-		{ // заносим ренту в список
+		{ // заносим сделку в список
 			(*iter)->setPlatim(month, amount);
 			return;
 		}

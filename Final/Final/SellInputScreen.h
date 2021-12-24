@@ -5,7 +5,6 @@
 using namespace std;
 
 ////////////////////класс SellInputScreen //////////////////
-//Ёкран дл€ добавлени€ ренты (смотреть мб и не нужно)
 class SellInputScreen
 {
 private:

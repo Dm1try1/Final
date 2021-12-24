@@ -23,7 +23,7 @@ int ProductList::getArtikl(string tName) // получить артикул украшения по назван
 	iter = setPtrsProd.begin();
 	while (iter != setPtrsProd.end())
 	{ //поиск украшения в списке
-		Artikl = (*iter)->getAptNumber();
+		Artikl = (*iter)->getNumber();
 		if (tName == ((*iter)->getName())) // ищем украшение по имени и возвращаем его артикул
 		{
 			return Artikl;
@@ -57,7 +57,7 @@ int ProductList::getPRICE(string tName) // получить цену по названию украшения
 	iter = setPtrsProd.begin();
 	while (iter != setPtrsProd.end())
 	{ //поиск украшения в списке
-		PRICE = (*iter)->getAptPrice();
+		PRICE = (*iter)->getPrice();
 		if (tName == ((*iter)->getName())) // ищем украшение по имени и возвращаем его цену
 		{
 			return PRICE;
@@ -74,7 +74,7 @@ void ProductList::getSELLER(string tName, int tcolvo) // изменить кол-во на скла
 	iter = setPtrsProd.begin();
 	while (iter != setPtrsProd.end())
 	{ //поиск украшения в списке
-		itog = (*iter)->getAptPrice();
+		itog = (*iter)->getPrice();
 		if (tName == ((*iter)->getName())) // находим нужное украшение и после проверки уменьшаем кол-во на складе
 		{ if ((*iter)->getSklad() >= tcolvo)
 			{
@@ -106,10 +106,10 @@ void ProductList::display() // вывод списка украшений
 			cout << setw(22) << left << (*iter)->getName()
 				<< setw(8) << (*iter)->getType()
 				<< setw(15) << (*iter)->getMaterial()
-				<< setw(15) << (*iter)->getAptSize()
-				<< setw(22) << (*iter)->getAptNumber()
+				<< setw(15) << (*iter)->getSize()
+				<< setw(22) << (*iter)->getNumber()
 				<< setw(22) << (*iter)->getSklad()
-				<< setw(22) << (*iter)->getAptPrice()
+				<< setw(22) << (*iter)->getPrice()
 				<< endl;
 			*iter++;
 		}

@@ -16,19 +16,19 @@ class Product
 {
 private:
 	string name, type, material;
-	int number, sklad, colvo, CORVOL;
+	int  number, sklad, CORVOL;
 	double price, size;
 
 public:
 	Product(string n, string n1, string n2, double aNo1, int aNo, double aNo2, int aNo3);
 	~Product();
-	int getAptNumber(); //возвращает кол-во на складе
+	int getNumber(); //возвращает артикул
 	string getName();
 	string getType();
 	int getSklad();
 	void resklader(int);
 	string getMaterial();
-	double getAptPrice();
-	double getAptSize();
+	double getPrice();
+	double getSize();
 };
 #endif Product_h

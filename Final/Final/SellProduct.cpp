@@ -8,7 +8,7 @@ SellProduct::SellProduct(int an) : Artikl(an) //конструктор
 	fill(&Platim[0], &Platim[12], 0);
 }
 //---------------------------------------------------------
-void SellProduct::setPlatim(int m, float am) // сеттер оплата за мес€ц m, сумма - am
+void SellProduct::setPlatim(int m, float am) // сеттер расхода за мес€ц m, сумма - am
 {
 	Platim[m] += am; // прив€зываем сделку к мес€цу
 }
